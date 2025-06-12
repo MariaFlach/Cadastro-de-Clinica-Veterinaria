@@ -1,0 +1,25 @@
+class Cliente:
+    nome = " "
+    idade = 0
+    endereco = " "
+    telefone = " "
+    
+class Pet:
+    nome = " "
+    tipo = " "
+    idade = 0
+    peso = 0.001
+    doença = "  "
+    
+MariaFlachdaCosta = Cliente()
+Miau = Pet()
+
+MariaFlachdaCosta.nome = input("Escreva o nome do cliente: ")
+MariaFlachdaCosta.idade = int(input("Escreva a idade do cliente: "))
+MariaFlachdaCosta.endereco = input("Escreva o endereço do cliente: ")
+MariaFlachdaCosta.telefone = input("Escreva o telefone do cliente: ")
+Miau.nome = input("Escreva o nome do pet: ")
+Miau.tipo = input("Escreva o tipo do pet: ")
+Miau.idade = int(input("Escreva a idade do pet: "))
+Miau.peso = float(input("Escreva o peso do pet: "))
+Miau.doenca = input("Escreva a doença que o pet tem: ")
